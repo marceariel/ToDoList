@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/values-xxxhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,55,150",
+                        "endColumns": "42,51,48",
+                        "endOffsets": "145,102,194"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,98,150",
+                        "endColumns": "42,51,48",
+                        "endOffsets": "93,145,194"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/res/merged/release/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/values-xxxhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,55,150",
+                        "endColumns": "42,51,48",
+                        "endOffsets": "145,102,194"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,98,150",
+                        "endColumns": "42,51,48",
+                        "endOffsets": "93,145,194"
+                    }
+                }
+            ]
+        }
+    ]
+}

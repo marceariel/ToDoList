@@ -2,11 +2,9 @@ package com.yalantis.beamazingtoday.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
-
 import com.yalantis.beamazingtoday.ui.callback.OnCursorMovedListener;
 
-
-public class WatcherEditText extends android.support.v7.widget.AppCompatEditText {
+public class WatcherEditText extends androidx.appcompat.widget.AppCompatEditText {
 
     private OnCursorMovedListener mListener;
 
@@ -29,10 +27,8 @@ public class WatcherEditText extends android.support.v7.widget.AppCompatEditText
     @Override
     protected void onSelectionChanged(int selStart, int selEnd) {
         super.onSelectionChanged(selStart, selEnd);
-
         if (mListener != null) {
             mListener.onCursorMoved();
         }
     }
-
 }

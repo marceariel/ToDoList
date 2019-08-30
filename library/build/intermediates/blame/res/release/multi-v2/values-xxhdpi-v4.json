@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/res/merged/release/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/values-xxhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,5,6,7,2,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "107,199,243,291,55,150",
+                        "endColumns": "42,43,47,55,51,48",
+                        "endOffsets": "145,238,286,342,102,194"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,98,142,190,246,298",
+                        "endColumns": "42,43,47,55,51,48",
+                        "endOffsets": "93,137,185,241,293,342"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/values-xxhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "3,5,6,7,2,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "107,199,243,291,55,150",
+                        "endColumns": "42,43,47,55,51,48",
+                        "endOffsets": "145,238,286,342,102,194"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,98,142,190,246,298",
+                        "endColumns": "42,43,47,55,51,48",
+                        "endOffsets": "93,137,185,241,293,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

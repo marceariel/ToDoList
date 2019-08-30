@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/res/merged/release/drawable-ldpi-v4/button_checked.png",
+        "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/drawable-ldpi/button_checked.png"
+    },
+    {
+        "merged": "/Users/mromero/Documents/androidProjects/ToDoList/library/build/intermediates/res/merged/release/drawable-ldpi-v4/button_unchecked.png",
+        "source": "/Users/mromero/Documents/androidProjects/ToDoList/library/src/main/res/drawable-ldpi/button_unchecked.png"
+    }
+]
