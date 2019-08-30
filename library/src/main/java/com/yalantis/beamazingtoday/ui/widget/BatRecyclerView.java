@@ -27,7 +27,6 @@ import com.yalantis.beamazingtoday.listeners.BatListener;
 public class BatRecyclerView extends FrameLayout {
 
     RecyclerView mRecyclerView;
-    //BatHeaderView mHeaderView;
     AppCompatImageView mBackground;
 
     public BatRecyclerView(Context context) {
@@ -42,7 +41,6 @@ public class BatRecyclerView extends FrameLayout {
         super(context, attrs, defStyleAttr);
         View view = LayoutInflater.from(context).inflate(R.layout.bat_recycler_view, this, true);
         mRecyclerView = view.findViewById(R.id.recycler_view);
-        //mHeaderView = view.findViewById(R2.id.header_view);
         mBackground = view.findViewById(R.id.view);
         obtainAttributes(context, attrs);
     }

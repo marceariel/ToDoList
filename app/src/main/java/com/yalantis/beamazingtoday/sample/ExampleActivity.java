@@ -23,9 +23,7 @@ import com.yalantis.beamazingtoday.util.TypefaceUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by galata on 20.07.16.
- */
+
 public class ExampleActivity extends AppCompatActivity implements BatListener, OnItemClickListener, OnOutsideClickedListener {
 
     private BatRecyclerView mRecyclerView;
@@ -59,6 +57,8 @@ public class ExampleActivity extends AppCompatActivity implements BatListener, O
             add(new Goal("eighth"));
             add(new Goal("ninth"));
             add(new Goal("tenth"));
+            add(new Goal("eleven"));
+            add(new Goal("twelve"));
         }}, this, mAnimator).setOnItemClickListener(this).setOnOutsideClickListener(this));
 
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new BatCallback(this));

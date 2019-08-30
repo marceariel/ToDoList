@@ -60,9 +60,6 @@ drawable list_item_background
 drawable recycler_view_background
 drawable selector_button_add
 drawable selector_radio_button
-id add_view
-id bat_edit_text
-id button_add
 id clickable_view
 id cursor
 id divider
@@ -77,7 +74,6 @@ id view_horizontal
 id view_vertical
 layout bat_add_view
 layout bat_edit_text
-layout bat_header_view
 layout bat_recycler_view
 layout list_item
 mipmap ic_launcher

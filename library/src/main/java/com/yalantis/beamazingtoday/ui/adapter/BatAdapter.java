@@ -183,7 +183,19 @@ public class BatAdapter extends RecyclerView.Adapter<BatAdapter.ViewHolder> impl
         public ViewHolder(View itemView) {
             super(itemView);
             this.rootView = itemView.findViewById(R.id.root);
+            this.rootView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onClickItem();
+                }
+            });
             this.textView = itemView.findViewById(R.id.text_view);
+            this.textView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onClickItem();
+                }
+            });
             this.radioButton = itemView.findViewById(R.id.radio_button);
             this.divider = itemView.findViewById(R.id.divider);
             this.clickeableView = itemView.findViewById(R.id.clickable_view);
@@ -202,8 +214,7 @@ public class BatAdapter extends RecyclerView.Adapter<BatAdapter.ViewHolder> impl
             }
         }
 
-        //@OnClick({R2.id.root, R2.id.text_view})
-        void onClick() {
+        void onClickItem() {
             if (mItemClickListener != null) {
                 BatModel item = (BatModel) radioButton.getTag();
                 mItemClickListener.onClick(item, mItems.indexOf(item));

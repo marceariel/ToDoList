@@ -1040,15 +1040,12 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_view
 id alertTitle
 id async
 id auto
-id bat_edit_text
 id blocking
 id bottom
 id buttonPanel
-id button_add
 id center
 id checkbox
 id chronometer
@@ -1236,7 +1233,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout bat_add_view
 layout bat_edit_text
-layout bat_header_view
 layout bat_recycler_view
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
